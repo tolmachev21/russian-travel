@@ -8,6 +8,8 @@
     letter-spacing: 0em;
     text-align: center;
     color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 @media screen and (max-width: 767px) {
