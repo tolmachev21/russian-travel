@@ -1,0 +1,23 @@
+.footer__links {
+    width: min(37vw, 465px);
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    column-gap: 18px;
+    list-style: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__links {
+        flex-direction: column;
+        row-gap: 32px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+}

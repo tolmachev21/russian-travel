@@ -1,0 +1,15 @@
+.place {
+    width: 100%;
+    column-gap: min(3.125vw, 40px);
+    row-gap: 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 32px;
+    }
+}
