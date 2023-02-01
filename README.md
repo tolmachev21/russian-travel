@@ -9,4 +9,4 @@ __Используемые технологии:__
 3. Grid Layout
 4. Git Hub Pages
 
-[Ссылка на Git Hub Pages]() 
+[Ссылка на Git Hub Pages](https://tolmachev21.github.io/russian-travel/) 
