@@ -1,25 +1,21 @@
 .footer {
-    width: min(90.625vw, 1184px);
+    max-width: 1184px;
     margin: 0 auto;
-    padding-top: 92px;
-    padding-bottom: 24px;
+    padding: 92px 48px 24px;
     display: flex;
     justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .footer {
-        width: min(93.75vw, 928px);
-        padding-top: 88px;
+        padding: 88px 24px 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .footer {
-        width: min(58.125%, 186px);
-        margin-left: min(5%, 16px);
-        margin-right: min(37%, 118px);
-        padding-top: 64px;
+        min-width: 186px;
+        padding: 64px 118px 24px 16px;
         flex-direction: column;
     }
 }
