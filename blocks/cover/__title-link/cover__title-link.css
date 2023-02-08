@@ -1,9 +1,9 @@
-.cover__title_link {
+.cover__title-link {
     width: 100%;
     color: #fff;
     text-decoration: none;
 }
 
-.cover__title_link:hover {
+.cover__title-link:hover {
     opacity: 0.8;
 }
