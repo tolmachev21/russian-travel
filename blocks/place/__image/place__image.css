@@ -1,13 +1,7 @@
 .place__image {
-    width: min(43vw, 460px);
+    width: 47%;
     object-fit: contain;
     object-position: top;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .place__image {
-        width: min(440px, 44.3vw);
-    }
 }
 
 @media screen and (max-width: 767px) {

@@ -1,5 +1,5 @@
 .lead__caption {
-    width: 158px;
+    width: max-content;
     margin: 0;
     padding-top: 8px;
     align-self: flex-start;
@@ -10,9 +10,10 @@
     letter-spacing: 1.5px;
     text-align: left;
     font-size: 10px;
+    text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 816px) {
     .lead__caption {
         padding-left: 24px;
     }

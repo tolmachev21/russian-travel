@@ -1,10 +1,11 @@
 .cover {
     max-width: 1184px;
-    height: min(62.5vw, 740px);
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/cover-trains.jpg);
+    min-height: min(62.5vw, 740px);
+    background-image: linear-gradient(rgba(42,44,47,0.3), rgba(42,44,47,0.3)), url(../../images/cover-trains.jpg);
     background-clip: content-box;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin: 0 auto;
     padding-top: 92px;
     display: flex;
@@ -28,5 +29,5 @@
 }
 
 .cover:hover {
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../../images/cover-trains.jpg);
+    background-image: linear-gradient(rgba(42,44,47,0.8), rgba(42,44,47,0.8)), url(../../images/cover-trains.jpg);
 }
