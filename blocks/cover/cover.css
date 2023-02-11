@@ -9,10 +9,6 @@
     margin: 0 auto;
     padding-top: 92px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 32px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -24,7 +20,6 @@
 @media screen and (max-width: 767px) {
     .cover {
         padding-top: 64px;
-        row-gap: 16px;
     }
 }
 
